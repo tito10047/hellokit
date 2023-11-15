@@ -1,0 +1,27 @@
+{
+    "name": "jozefm/hellokit",
+    "description": "Package for generating greet",
+    "keywords": ["greet", "hello", "Salutation"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hellokit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DsiData a.s.",
+            "email": "vyvoj@dsidata.sk"
+        },
+        {
+            "name": "Jozef Môstka",
+            "email": "mostka.j@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
